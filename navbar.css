@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightblue;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+/* Links list */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Links */
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #1976d2;
+}
