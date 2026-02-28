@@ -26,3 +26,28 @@
 button{
     background-color: yellow;
 }
+#container{
+   height: 400px;
+    width: 200px;
+    background-color: gray;
+    text-align: center;
+}
+.b{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding-left: 50px;
+    margin-left:20px ;
+    padding-bottom: 20px;
+    margin-bottom: 14px;
+
+}
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: orange;
+}
+#c3{
+    background-color: green;
+}
