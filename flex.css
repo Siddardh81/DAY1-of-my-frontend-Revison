@@ -1,0 +1,35 @@
+.container{
+    color: rgb(255, 255, 255);
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+div{
+     width: 100px;
+     height: 100px;
+     display: inline-block;
+     margin: 0.5px;
+     border: 2px solid black;
+     flex-wrap: wrap;
+     align-content: end;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: green;
+    height: 120px;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: yellow;
+}
+body{
+  text-align: center;
+}
